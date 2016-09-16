@@ -2,7 +2,7 @@
 
 Riya Gharat             n00901846
 Hame Britto
-Megan Molumby
+Megan Molumby           n00942101
 Mai Nguyen              n01069097
 
   */
@@ -12,10 +12,10 @@ import java.io.*;
 
 class Project1{
    public static void main(String[]args){
-    
+      char choice;
       String hostName = args[0];
       if(hostName = null){
-         System.out.println("ERROR: Did not enter a hostname. The program will exit.")
+         System.out.println("ERROR: Did not enter a hostname. The program will exit.");
       }else{
          boolean check = true;
          while(check){
@@ -58,4 +58,5 @@ class Project1{
            }   
    
    }  
+ }
 }
